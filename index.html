@@ -15,13 +15,18 @@
   <body>
     <div class="card">
       <div class="search">
-        <input type="text" placeholder="enter city name" spellcheck="false" />
-        <button><img src="images/search.png" alt="" /></button>
+        <input
+          class="text"
+          type="text"
+          placeholder="enter city name"
+          spellcheck="false"
+        />
+        <button class="submit"><img src="images/search.png" alt="" /></button>
       </div>
-      <div class="weather">
+      <div class="weather vanish">
         <img class="weather-icon" src="images/rain.png" alt="" />
         <h1 class="temp">22°c</h1>
-        <h2 class="city">Rajshahi</h2>
+        <h2 id="cityName" class="city">Rajshahi</h2>
         <div class="details">
           <div class="col">
             <img src="images/humidity.png" alt="" />
